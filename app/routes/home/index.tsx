@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import type { Route } from "./+types/index";
 
 export function meta({}: Route.MetaArgs) {
@@ -8,5 +9,6 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
+
   return <section>My App</section>;
 }
